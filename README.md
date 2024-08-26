@@ -1,4 +1,4 @@
-#Stroke Prediction Project
+#Stroke-Prediction-Project
 
 This project aims to predict the likelihood of a patient experiencing a heart stroke based on comorbidities, work, and lifestyle factors. The project encompasses data ingestion, orchestration, cleaning, visualization, and machine learning, leveraging Microsoft Fabric's capabilities.
 
