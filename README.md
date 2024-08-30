@@ -5,7 +5,9 @@ This project aims to predict the likelihood of a patient experiencing a heart st
 ## Architecture Overview:
 
 1-Data Engineering: Utilized Data Factory and Synapse Engineering to extract, transform, and load the dataset into a Fabric-enabled Lakehouse using Dataflow Gen2. The Lakehouse, based on the delta storage format, was used to store and query the data via SQL endpoints.
+
 2-Data Science: A Support Vector Machine (SVM) model was developed using Spark notebooks connected to the Lakehouse. The model achieved 95% accuracy.
+
 3-Data Analysis: SQL views were created for fact and dimension tables. Visualization and DAX measures were initially developed in Fabric's visualization tools and later refined in Power BI Desktop using SQL endpoint connections to avoid data duplication.
 
 The Stroke Prediction project involved several key steps using Microsoft Fabric to predict heart stroke risk based on patient comorbidities, work, and lifestyle factors. The workflow included:
